@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code checkout
-        uses: actions/chekout@v6
+        uses: actions/checkout@v6
 
       - name: Maven Testing
         run: mvn test
