@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Code checkout
         run: echo "Workflow works!"
-        uses: actions/chekout@v6
+      - uses: actions/chekout@v6
 
       - name: Maven Testing
         run: mvn test
